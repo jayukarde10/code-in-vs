@@ -24,12 +24,16 @@
 //  || or
 
 //all character has ASCII no A=65 ,a=97
+//for( i='A';i<='Z';i++){
+//    printf("%c ",i);//print all alphabets
+//} 
+
 
 
 
 //if else syntax
 // if (condition1) {
-//     // block 1
+//     // block 1  we can use break here to exit and continue to skip rest of the code
 // } else if (condition2) {
 //     // block 2
 // } else {
@@ -92,6 +96,13 @@
 // for (initialization; condition; increment/decrement) {
 //     // loop body
 // }
+// example
+//int main(){
+//   int d=0;for (int i = 5;i<=50; i++){
+    // sum =sum + i // important 
+//     ; printf("%d\n", sum);}return 0;
+// } it prints sum of numbers from 5 to 50
+
 
 //while loop
 // int i = 1;

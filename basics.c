@@ -1,10 +1,8 @@
 #include<stdio.h>
 
-int main(){
-    int i;
-   for( i=0;i<=10;i+=1){
-     printf("%d ",i);
-    }
 
-  return 0;
+int main(){
+  int d=0;for (int i = 5;i<=50; i++){
+    d += i
+    ; printf("%d\n", d);}return 0;
 }
