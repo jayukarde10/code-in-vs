@@ -12,6 +12,14 @@
 //a=a/b; // a/=b    
 //a=a%b; // a%=b
 
+//increment ++
+//i++ use and then increment
+//++i increment and then use
+//decrement --
+//i-- use and then decrement
+//--i decrement and then use
+
+
 //&& and
 //  || or
 
@@ -102,3 +110,4 @@
 // Entry-controlled	Exit-controlled
 // Condition checked first	Condition checked after loop
 // May run zero times	Runs at least once
+
