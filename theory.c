@@ -15,6 +15,8 @@
 //&& and
 //  || or
 
+//all character has ASCII no A=65 ,a=97
+
 
 
 //if else syntax
@@ -83,4 +85,20 @@
 //     // loop body
 // }
 
+//while loop
+// int i = 1;
 
+// while (i <= 5) {
+//     printf("%d\n", i);
+//     i++;
+// }
+
+//do while loop
+// do {
+//     // loop body
+// } while (condition);
+
+// while loop	do–while loop
+// Entry-controlled	Exit-controlled
+// Condition checked first	Condition checked after loop
+// May run zero times	Runs at least once
