@@ -1,21 +1,13 @@
 #include<stdio.h>
 #include<string.h>
-void namaste(){
-  printf("namaste\n");
-}
-void france(){
-  printf("bonguer\n");
+int sum(int a,int b){//a,b is parameter//actual parameter
+  
+  return a+b ;
 }
 int main(){
-  char a[50];
-  printf("enter nationality like india,france : \n");
-  scanf("%s",&a);
-  if( strcmp(a,"india")== 0){
-    namaste();
-  }else if(strcmp(a,"france")==0) {
-    france();
-  }else{
-    printf("hello");
-  }
+  int x,y;
+  scanf("%d %d",&x,&y);
+  int s=sum(x,y);  // where x,y is actual parameter //also known as argument
+   printf("%d",s);
  return 0;
 }

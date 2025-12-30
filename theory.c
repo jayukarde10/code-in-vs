@@ -163,3 +163,20 @@
     //     printf("Namaste");
     // }  //strcmp use to compare i  if statement
 
+
+// parameter and argument in the function
+//#include<stdio.h>
+// int sum(int a,int b){//a,b is parameter//actual parameter
+  
+//   return a+b ;
+// }
+// int main(){
+//   int x,y;
+//   scanf("%d %d",&x,&y);
+//   int s=sum(x,y);  // where x,y is actual parameter //also known as argument
+//    printf("%d",s);
+//  return 0;
+// }
+
+
+// we can call function in int main() but not use it after function end 
