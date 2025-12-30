@@ -40,6 +40,11 @@
 //     // default block
 // }
 
+
+//Numbers → ==  //%d
+// Characters → ==//%c
+// Strings → strcmp()//%s // use to compare in if(compare)
+
 // short cut ternary syntax
 //condition ? expression_if_true : expression_if_false;
 
@@ -121,4 +126,40 @@
 // Entry-controlled	Exit-controlled
 // Condition checked first	Condition checked after loop
 // May run zero times	Runs at least once
+
+
+
+//function syntax
+// return_type function_name(parameter1_type parameter1, parameter2_type parameter2) {
+//     // function body     
+//     return return_value;
+// }   
+
+// calling function
+// function_name(argument1, argument2);
+
+
+//example
+// void greet(char name[]) {
+//     printf("Hello, %s!\n", name);
+// }
+
+//example 
+// #include<stdio.h>
+// void greet(char name[]){
+//     printf("hello %s",name);
+//   }
+
+// int main(){
+//     char name[50];
+//     printf("Enter your name: ");
+//     fgets(name, sizeof(name), stdin);
+//     greet(name);
+//     return 0;
+// }
+
+
+//if (strcmp(id, "indian") == 0) {
+    //     printf("Namaste");
+    // }  //strcmp use to compare i  if statement
 
