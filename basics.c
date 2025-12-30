@@ -1,13 +1,23 @@
 #include<stdio.h>
-#include<string.h>
-int sum(int a,int b){//a,b is parameter//actual parameter
-  
-  return a+b ;
-}
+int fact(int n){
+  if(n==0||n==1){
+    return 1;
+}else{
+  return n*fact(n-1);
+
+}}
+int sos(int n){
+  if(n==0){
+    return 0;
+  }else{
+    return n+sos(n-1);
+  }
+} 
 int main(){
-  int x,y;
-  scanf("%d %d",&x,&y);
-  int s=sum(x,y);  // where x,y is actual parameter //also known as argument
-   printf("%d",s);
- return 0;
+  int n;
+  scanf("%d",&n);
+  printf("factorial is %d",fact(n));
+  printf("\nsum of series is %d",sos(n));
+
+  return 0;
 }
