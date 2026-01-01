@@ -4,7 +4,24 @@
 //for char first alfabet only %c,whole text %s
 // with space to get all 
 //char name[50];
-//fgets(name, 50, stdin);
+//scanf("%s",name); // only first word
+//scanf("%[^\n]s",name); // to get whole line with spaces
+//printf("%s",name); // to print string
+
+
+// gets and puts
+// int main() {
+//     char name[50];
+
+//     printf("Enter name: ");
+//     gets(name);      // not recommended
+
+//     puts(name);      // prints string
+
+//     return 0;
+// }
+
+//fgets(name, 50, stdin);//imp 
 
 //a=a+b; // a+=b
 //a=a-b; // a-=b    
